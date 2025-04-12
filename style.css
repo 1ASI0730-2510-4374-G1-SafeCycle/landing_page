@@ -63,3 +63,7 @@ body{
     color:#A3CBFF;
     transition: all 0.4s ease;
 }
+.options li button:active{
+    background-color: #006174;
+    color:#7E98AA;
+}
