@@ -67,3 +67,68 @@ body{
     background-color: #006174;
     color:#7E98AA;
 }
+
+.introduction{
+    background-image: url(/assets/images/introBG.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction .container{
+    height: 700px;
+    width: 1000px;  
+    display: flex;
+    position: relative;
+    top: -100px;
+    
+}
+
+.text-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .text-intro{
+    color: #65AE5B;
+}
+
+.container .text-intro h1{
+    font-size: 150px;
+    margin: 0;
+}
+
+.container .text-intro p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.highlight{
+    color: #0091AD
+}
+
+.GetStartedButton{
+    z-index: 999;
+    position: relative;
+    font-size: 20px;
+    background-color: #65AE5B;
+    padding: 15px 60px 15px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.GetStartedButton:hover{
+    background-color: #1d4119;
+    transition: 0.3s;
+}
+
+.introImage {
+    position: relative;
+    height: 800px;
+    left: -400px;
+    
+}
