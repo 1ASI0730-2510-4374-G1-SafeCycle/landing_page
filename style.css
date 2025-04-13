@@ -1,29 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    min-height: 100vh;
-    font-family: "Inria Sans";
-}
-.header {
-    background: linear-gradient(to bottom, #c1f0f5, #c9f0c4);
-}
-.logo{
-    width: 250px;
-}
-.navbar{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.options{
-    list-style: none;
-    align-items: center;
-    display:flex;
 
-}
 .options li{
     padding: 0 30px;
 }
