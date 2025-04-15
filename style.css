@@ -292,3 +292,27 @@ body{
     flex-direction: column;
     gap: 140px;
 }
+
+.WhyUsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.DifferenceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.DifferenceContainer h2{
+    font-size: 36px;
+    color: #00505F;
+}
+
+.DifferenceContainer ul li{
+    font-weight: lighter;
+    margin: 10px;
+}
