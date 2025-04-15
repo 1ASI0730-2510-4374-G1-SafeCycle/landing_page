@@ -220,4 +220,10 @@ body{
     border-radius: 10px;
     border: none;
     box-shadow: 5px 5px 15px #14222c4f;
+    font-family: "Inria Sans";
+}
+
+.planButton:hover{
+    transition: 0.3s;
+    font-size: 21px;
 }
