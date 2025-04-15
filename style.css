@@ -227,3 +227,68 @@ body{
     transition: 0.3s;
     font-size: 21px;
 }
+
+.fees{
+    height: 530px;
+}
+
+.fees h1{
+    font-size: 60px;
+    color: #00505F;
+    text-align: center;
+    padding: 30px;
+}
+.feesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.feeContain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px #646c724f;
+    width: 450px;
+    height: 343px;
+}
+
+.feeContain h2{
+    color: #0091AD;
+    font-size: 40px;
+}
+
+.feeContain h1{
+    color:#65AE5B;
+    font-size: 96px;
+}
+
+.feeContain h1 p{
+    font-size: 20px;
+    color: #00505F;
+
+}
+
+.feeContain p{
+    font-size: 20px;
+    color: #00505F;
+}
+
+.stepHow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.stepHow p{
+    font-size: 34px;
+    color: #134611;
+}
+
+.Steps{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
