@@ -8,7 +8,7 @@ body{
     font-family: "Inria Sans";
 }
 .header {
-    background: linear-gradient(to bottom, #c1f0f5, #c9f0c4);
+    background: linear-gradient(to bottom, #c1f0f5, #c9f0c400);
 }
 .logo{
     width: 250px;
@@ -66,6 +66,12 @@ body{
 .options li button:active{
     background-color: #006174;
     color:#7E98AA;
+}
+
+.header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 .introduction{
@@ -131,4 +137,21 @@ body{
     height: 800px;
     left: -400px;
     
+}
+
+.stadistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 150px;
+    text-align: center;
+}
+
+.statContainer h2{
+    font-size: 100px;
+    color: #00505F;
+}
+.statContainer p{
+    margin-left: 50px;
 }
