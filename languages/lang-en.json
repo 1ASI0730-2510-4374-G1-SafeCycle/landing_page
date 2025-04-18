@@ -1,0 +1,66 @@
+{
+    "navItem1": "Fares",
+    "navItem2": "Plans",
+    "navItem3": "Why Us",
+    "LogIn": "Log in",
+  
+    "descripcionIntro": "Move freely, ",
+    "descripcionIntro2": " ride securely",
+    "IntroductionButton": "Start Now",
+  
+ 
+    "StadisticsNumber1": "Available Bikes",
+    "StadisticsNumber2": "Kilometers Ridden",
+    "StadisticsNumber3": "Safe Travels",
+  
+    "WhatWeOfferTitle": "What we offer",
+    "Offer1Title": "Security",
+    "Offer1Desc1": "Automatic bike lock",
+    "Offer1Desc2": "for worry-free rides",
+    "Offer2Title": "Comfort",
+    "Offer2Desc1": "Easy access to",
+    "Offer2Desc2": "smooth, comfy rides",
+    "Offer3Title": "Dynamism",
+    "Offer3Desc1": "Skip the traffic,",
+    "Offer3Desc2": "skip the wait",
+  
+    "PlansTitle1": "A plan tailored to your needs",
+    "Plans1": "Student Plan",
+    "Plans1Desc1": "Quick rentals, low cost.",
+    "Plans1Desc2": "Pay with Yape, no cash needed",
+    "Plans1Desc3": "Student discount fare",
+    "planButton1": "Apply for Student Plan",
+  
+    "Plans2": "Tourist Plan",
+    "Plans2Desc1": "Ride freely, like a local.",
+    "Plans2Desc2": "Tourism in group",
+    "Plans2Desc3": "Pay with PayPal from Anywhere",
+    "planButton2": "Start as Tourist",
+  
+    "FaresTitle": "Fares",
+    "Fee1Title": "General",
+    "Fee1amouunt": "0.045",
+    "FeeForMinute": "S/. for every minute",
+    "Fee2Title": "Student",
+    "Fee2amouunt": "0.035",
+  
+    "WorkTitle": "How does it work?",
+    "Workstep1": "📲  Register",
+    "Workstep2": "📍  Find It",
+    "Workstep3": "🔒 Unlock It",
+    "Workstep4": "🚴 Enjoy",
+  
+    "whyusTitle": "Why Us?",
+    "WhyUsSafeCycleList1": "Time-based payments",
+    "WhyUsSafeCycleList2": "Instant access, no delays",
+    "WhyUsSafeCycleList3": "Total comfort, every ride",
+    "WhyUsSafeCycleList4": "Eco-friendly",
+  
+    "WhyUsOtrosTitle": "Others",
+    "WhyUsOthersList1": "Fixed cost",
+    "WhyUsOthersList2": "Delays",
+    "WhyUsOthersList3": "Uncomfortable",
+    "WhyUsOthersList4": "Polluting",
+  
+    "contactTitle": "Contact Us"
+  }
