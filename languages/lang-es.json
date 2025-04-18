@@ -1,0 +1,65 @@
+{
+    "navItem1": "Tarifas",
+    "navItem2": "Planes",
+    "navItem3": "Por qué nosotros",
+    "LogIn": "Iniciar sesión",
+  
+    "descripcionIntro": "Muévete libremente, ",
+    "descripcionIntro2": " viaja seguro",
+    "IntroductionButton": "Empieza ahora",
+  
+    "StadisticsNumber1": "Bicicletas disponibles",
+    "StadisticsNumber2": "Kilómetros recorridos",
+    "StadisticsNumber3": "Viajes seguros",
+  
+    "WhatWeOfferTitle": "Lo que ofrecemos",
+    "Offer1Title": "Seguridad",
+    "Offer1Desc1": "Candado automático",
+    "Offer1Desc2": "para viajes sin preocupaciones",
+    "Offer2Title": "Comodidad",
+    "Offer2Desc1": "Acceso fácil a",
+    "Offer2Desc2": "viajes cómodos y fluidos",
+    "Offer3Title": "Dinamismo",
+    "Offer3Desc1": "Evita el tráfico,",
+    "Offer3Desc2": "evita la espera",
+  
+    "PlansTitle1": "Un plan a tu medida",
+    "Plans1": "Plan Estudiante",
+    "Plans1Desc1": "Alquiler rápido, bajo costo.",
+    "Plans1Desc2": "Paga con Yape, sin efectivo",
+    "Plans1Desc3": "Tarifa con descuento para estudiantes",
+    "planButton1": "Solicita el Plan Estudiante",
+  
+    "Plans2": "Plan Turista",
+    "Plans2Desc1": "Viaja libre, como un local.",
+    "Plans2Desc2": "Turismo en grupo",
+    "Plans2Desc3": "Paga con PayPal desde cualquier lugar",
+    "planButton2": "Comienza como Turista",
+  
+    "FaresTitle": "Tarifas",
+    "Fee1Title": "General",
+    "Fee1amouunt": "0.045",
+    "FeeForMinute": "S/. por cada minuto",
+    "Fee2Title": "Estudiante",
+    "Fee2amouunt": "0.035",
+  
+    "WorkTitle": "¿Cómo funciona?",
+    "Workstep1": "📲  Regístrate",
+    "Workstep2": "📍  Encuéntrala",
+    "Workstep3": "🔒 Desbloquéala",
+    "Workstep4": "🚴 Disfruta",
+  
+    "whyusTitle": "¿Por qué nosotros?",
+    "WhyUsSafeCycleList1": "Pagos por tiempo",
+    "WhyUsSafeCycleList2": "Acceso instantáneo, sin demoras",
+    "WhyUsSafeCycleList3": "Comodidad total, en cada viaje",
+    "WhyUsSafeCycleList4": "Ecológico",
+  
+    "WhyUsOtrosTitle": "Otros",
+    "WhyUsOthersList1": "Costo fijo",
+    "WhyUsOthersList2": "Demoras",
+    "WhyUsOthersList3": "Incómodo",
+    "WhyUsOthersList4": "Contaminante",
+  
+    "contactTitle": "Contáctanos"
+  }
