@@ -509,4 +509,23 @@ body{
         width: 90%;
         max-width: 300px;
     }
+    .WhyUs {
+        height: auto;
+        padding: 20px;
+    }
+    .WhyUsContainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .DifferenceContainer {
+        width: 90%;
+    }
+    .DifferenceContainer h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .DifferenceContainer ul li {
+        text-align: center;
+        font-size: 16px;
+    }
 }
