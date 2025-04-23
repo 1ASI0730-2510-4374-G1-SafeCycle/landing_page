@@ -493,4 +493,20 @@ body{
     .feeContain p {
         font-size: 20px;
         text-align: center;
+   .Steps {
+        gap: 60px;
+    }
+    .stepHow {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+    .stepHow p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .stepHow img {
+        width: 90%;
+        max-width: 300px;
+    }
 }
