@@ -431,4 +431,24 @@ body{
         gap: 60px;
         padding: 40px 0;
     }
+    .statContainer h2 {
+        font-size: 60px;
+    }
+    .statContainer p {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    .whatWeOffer {
+        flex-direction: column;
+        flex-wrap:wrap;
+        height: auto;
+        gap: 60px;
+        padding: 40px 0;
+    }
+    .offerItem {
+        max-width: 90%;
+    }
+    .offerItem h3 {
+        font-size: 24px;
+    }
 }
