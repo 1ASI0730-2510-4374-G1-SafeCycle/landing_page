@@ -457,7 +457,6 @@ body{
     }
     .plansContain {
         flex-direction: column-reverse !important;
-        
         gap: 30px;
         padding: 0 20px;
     }
@@ -479,4 +478,19 @@ body{
         width: 100%;
         max-width: 400px;
     }
+   .feesContainer {
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 100px;
+    }
+    .feeContain {
+        width: 90%;
+    }
+    .feeContain h1 {
+        font-size: 60px;
+    }
+    .feeContain h2,
+    .feeContain p {
+        font-size: 20px;
+        text-align: center;
 }
