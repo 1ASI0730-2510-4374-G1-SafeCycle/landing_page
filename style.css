@@ -424,4 +424,11 @@ body{
     .text-intro h1 {
         font-size: 60px;
     }
+    .stadistics {
+        flex-direction: column;
+        flex-wrap:wrap;
+        height: auto;
+        gap: 60px;
+        padding: 40px 0;
+    }
 }
