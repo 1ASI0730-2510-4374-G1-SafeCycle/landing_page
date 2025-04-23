@@ -528,4 +528,45 @@ body{
         text-align: center;
         font-size: 16px;
     }
+    .footer {
+        height: auto;
+        padding: 40px 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    .Contacts {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .Contacts img {
+        height: auto;
+    }
+    .Contacts h1 {
+        font-size: 22px;
+    }
+    .Socials {
+        gap: 20px;
+    }
+    .BikeFooterIMG {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .BikeFooterIMG img {
+        height: 200px;
+        width: auto;
+    }
+    .Language {
+        top: unset;
+        bottom: 10px;
+        right: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .LanguageButtons {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
 }
