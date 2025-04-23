@@ -451,4 +451,32 @@ body{
     .offerItem h3 {
         font-size: 24px;
     }
+    .plans {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .plansContain {
+        flex-direction: column-reverse !important;
+        
+        gap: 30px;
+        padding: 0 20px;
+    }
+    .planTextContainer {
+        width: 100%;
+        padding: 10px;
+    }
+    .planTextContainer h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .planTextContainer ul {
+        padding-left: 20px;
+    }
+    .planTextContainer li {
+        font-size: 16px;
+    }
+    .plansContain img {
+        width: 100%;
+        max-width: 400px;
+    }
 }
