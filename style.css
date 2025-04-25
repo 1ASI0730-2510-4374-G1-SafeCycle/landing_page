@@ -75,7 +75,7 @@ body{
 }
 
 .introduction{
-    background-image: url(/assets/images/introBG.png);
+    background-image: url(assets/images/introBG.png);
     height: 900px;
     background-repeat: no-repeat;
     display: flex;
@@ -330,7 +330,7 @@ body{
 }
 
 .footer {
-    background-image: url("/assets/images/roadFooter.svg");
+    background-image: url(assets/images/roadFooter.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
