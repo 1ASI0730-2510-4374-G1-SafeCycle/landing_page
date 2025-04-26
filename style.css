@@ -1,12 +1,22 @@
-*{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     min-height: 100vh;
     font-family: "Inria Sans";
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
 }
+
+section, .header, .footer {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 .header {
     background: linear-gradient(to bottom, #c1f0f5, #c9f0c400);
 }
@@ -74,24 +84,26 @@ body{
     width: 100%;
 }
 
-.introduction{
+.introduction {
     background-image: url(/assets/images/introBG.png);
-    height: 900px;
+    min-height: 900px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
     background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
 
 .introduction .container{
     height: 700px;
-    width: 1000px;  
+    width: 1000px;
     display: flex;
     position: relative;
     top: -100px;
-    
+
 }
 
 .text-intro{
@@ -144,7 +156,7 @@ body{
     position: relative;
     height: 800px;
     left: -400px;
-    
+
 }
 
 .stadistics{
@@ -180,7 +192,7 @@ body{
 }
 
 .imagecontainer{
-    
+
     display: inline-block;
     border-radius: 10px;
 }
@@ -198,7 +210,7 @@ body{
     text-align: center;
     padding: 60px;
     text-decoration: underline;
-    
+
 }
 
 .plansContain{
@@ -215,7 +227,7 @@ body{
     flex-direction: column;
     gap: 20px;
     width: 600px;
-    
+
 }
 
 .planTextContainer h2{
@@ -304,7 +316,7 @@ body{
 .WhyUsContainer{
     display: flex;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 .WhyUs{
@@ -336,7 +348,7 @@ body{
     height: 700px;
 
   }
-  
+
   .Contacts {
     display: flex;
     flex-direction: column;
@@ -347,55 +359,65 @@ body{
     color: #003b00;
     gap: 20px;
   }
-  
+
   .Contacts img {
     height: 75.45px;
     width: 270.67px;
   }
-  
+
   .Contacts h1 {
     font-size: 30px;
     margin: 0;
   }
-  
+
   .Socials {
     display: flex;
     gap: 40px;
   }
-  
+
   .Socials img {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
   }
-  
+
   .Socials img:hover {
     transform: scale(1.2);
   }
-  
+
   .BikeFooterIMG img {
     height: 400px;
   }
 
- .Language{
+.Language {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     position: fixed;
-    top: 95%;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     z-index: 9999;
-  } 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
 
 .LanguageButtons{
-   
-    padding: 5px 10px 5px 10px ;
+
+    padding: 8px 15px;
     border-radius: 10px;
     border: none;
     background-color: #007A91;
     color: white;
     font-family: "Inria Sans";
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.LanguageButtons:hover {
+    background-color: #005f73;
 }
 @media screen and (max-width: 768px) {
     body {
@@ -558,15 +580,267 @@ body{
         height: 200px;
         width: auto;
     }
+
     .Language {
-        top: unset;
         bottom: 10px;
         right: 10px;
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
+        padding: 3px;
     }
+
     .LanguageButtons {
+        padding: 5px 10px;
         font-size: 14px;
-        padding: 5px 8px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .introduction .container {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .container .text-intro h1 {
+        font-size: 100px;
+    }
+
+    .introImage {
+        height: 600px;
+        left: -200px;
+    }
+
+    .whatWeOffer {
+        gap: 80px;
+        padding: 40px;
+    }
+
+    .stadistics {
+        gap: 80px;
+    }
+
+    .Contacts {
+        padding-left: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .options {
+        gap: 15px;
+    }
+
+    .options li {
+        padding: 0 15px;
+    }
+
+    .container .text-intro h1 {
+        font-size: 80px;
+    }
+
+    .introImage {
+        height: 500px;
+        left: -150px;
+    }
+
+    .statContainer h2 {
+        font-size: 80px;
+    }
+
+    .whatWeOffer {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .plansContain img {
+        max-width: 300px;
+    }
+
+    .planTextContainer {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Header */
+    .header {
+        position: relative;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .options {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .options li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .introduction {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .introduction .container {
+        flex-direction: column;
+        height: auto;
+        top: 0;
+    }
+
+    .text-intro {
+        width: 100%;
+    }
+
+    .container .text-intro h1 {
+        font-size: 60px;
+    }
+
+    .introImage {
+        position: static;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .stadistics {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .whatWeOffer {
+        flex-direction: column;
+    }
+
+    .offerItem {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .plans {
+        height: auto;
+    }
+
+    .plansContain {
+        flex-direction: column;
+    }
+
+    .planTextContainer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .plansContain img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .fees {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .feesContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feeContain {
+        width: 90%;
+    }
+
+    .stepHow {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stepHow img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .stepHow p {
+        font-size: 24px;
+    }
+
+    .WhyUs {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .WhyUsContainer {
+        flex-direction: column;
+    }
+
+    .DifferenceContainer {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+        background-position: center;
+    }
+
+    .Contacts {
+        padding: 40px 20px;
+    }
+
+    .BikeFooterIMG img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container .text-intro h1 {
+        font-size: 40px;
+    }
+
+    .statContainer h2 {
+        font-size: 50px;
+    }
+
+    .feeContain h1 {
+        font-size: 40px;
+    }
+
+    .stepHow p {
+        font-size: 20px;
+    }
+
+
+    .Language {
+        flex-direction: column;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .LanguageButtons {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Language {
+        flex-direction: column;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .LanguageButtons {
+        padding: 4px 8px;
+        font-size: 12px;
     }
 }
