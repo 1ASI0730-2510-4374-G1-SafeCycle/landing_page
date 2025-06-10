@@ -49,18 +49,23 @@
     "Workstep2": "📍  Find It",
     "Workstep3": "🔒 Unlock It",
     "Workstep4": "🚴 Enjoy",
-  
+
+    "AppPreviewTitle": "App Preview",
+    "AppPreviewSubtitle": "Explore how our web platform looks before starting your ride",
+    
     "whyusTitle": "Why Us?",
     "WhyUsSafeCycleList1": "Time-based payments",
     "WhyUsSafeCycleList2": "Instant access, no delays",
     "WhyUsSafeCycleList3": "Total comfort, every ride",
     "WhyUsSafeCycleList4": "Eco-friendly",
-  
+
     "WhyUsOtrosTitle": "Others",
     "WhyUsOthersList1": "Fixed cost",
     "WhyUsOthersList2": "Delays",
     "WhyUsOthersList3": "Uncomfortable",
     "WhyUsOthersList4": "Polluting",
+
+    "demoWorks": "A peek on how it works",
   
     "contactTitle": "Contact Us"
   }

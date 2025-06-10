@@ -25,3 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const lang = userLang.startsWith('es') ? 'es' : 'en'; 
     setLanguage(lang);
   });
+document.getElementById('LogIn').addEventListener('click', () => {
+    window.location.href = 'https://white-mud-04527db10.6.azurestaticapps.net/';
+  });
+document.getElementById('IntroductionButton').addEventListener('click', (e) => {
+    e.preventDefault(); 
+    window.location.href = 'https://white-mud-04527db10.6.azurestaticapps.net/';
+  });
+document.getElementById('planButton1').addEventListener('click', () => {
+    window.location.href = 'https://white-mud-04527db10.6.azurestaticapps.net/';
+});
+
+document.getElementById('planButton2').addEventListener('click', () => {
+    window.location.href = 'https://white-mud-04527db10.6.azurestaticapps.net/';
+});
