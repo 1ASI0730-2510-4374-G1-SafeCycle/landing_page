@@ -316,6 +316,38 @@ section, .header, .footer {
     gap: 140px;
 }
 
+.appPreview {
+    background-color: #F0FAFF;
+    padding: 100px 20px;
+    text-align: center;
+}
+.appPreviewTitle {
+    font-size: 50px;
+    color: #00505F;
+    margin-bottom: 10px;
+}
+.appPreviewSubtitle {
+    font-size: 20px;
+    color: #134611;
+    margin-bottom: 50px;
+}
+.appImagesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.appImage {
+    width: 800px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+.appImage:hover {
+    transform: scale(1.05);
+}
+
 .WhyUsContainer{
     display: flex;
     align-items: center;
